@@ -1,0 +1,24 @@
+{
+    "Alex" : {
+        "id" : 1,
+        "health" : 20,
+        "mana" : 10,
+        "meleeDamage" : 2,
+        "rangedDamage" : 1,
+        "magicDamage" : 0,
+        "speed" : 3,
+        "defense" : 0,
+        "male" : true
+    },
+    "Jenova" : {
+        "id" : 1,
+        "health" : 15,
+        "mana" : 20,
+        "meleeDamage" : 1,
+        "rangedDamage" : 3,
+        "magicDamage" : 1,
+        "speed" : 4,
+        "defense" : 0,
+        "male" : false
+    }
+}

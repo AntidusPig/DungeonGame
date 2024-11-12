@@ -13,11 +13,11 @@ g++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0
 
 terminal font : Nimbus Mono PS, size 12
 
-please change your font until the grids line up
+please change your font so that the grids line up
 
 ### build
 
-only works on linux
+only tested on linux
 
 `make -B main`
 
@@ -28,11 +28,11 @@ Alex and Jenova entered the cave of monsters by accident. Can they make it out a
 Turn-based combat, you have to defeat all the monsters to win. If everyone perish you lose the game.
 
 ### Tips:
-- Each character can have multiple actions in a turn. When every character cannot move anymore, the next turn starts. Our game can hold 3 characters at most.
-- Equipments can be used to gain additional damage or get less damage inflicted in combat. If a new equipment is used when you have a better one equipped, the old, better one is lost, so be careful!
-- Your character dies when at zero HP (health point)
-- To shoot an arrow, the character needs an arrow
-- Magic attack costs MP (magic point), so it may fail at low MP. Increase your MP by drinking potions.
+- Each character can perform multiple actions in a turn. The next turn starts when all their actions are finished. Our game can hold 3 characters at most.
+- Equipments can be used to gain more damage or receive less damage in combat. If a new equipment is used when you have a better one equipped, the old, better one is lost, so be careful!
+- The characters die at zero HP
+- To shoot an arrow, the characters need an arrow
+- Magic attack costs MP, so it may fail at low MP. Increase your MP by drinking potions.
 - Currently selected target/character have its name **bolded**
 
 You can find the map of the cave in a png file around here. 
